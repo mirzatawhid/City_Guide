@@ -43,4 +43,19 @@
     <string name="search_text">Search...</string>
 
 
+    <!--Strings for navigation menu -->
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="all_catagory">All Catagories</string>
+    <string name="add_missing_place">Add Missing Places</string>
+
+    <string name="login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+
+
 </resources>

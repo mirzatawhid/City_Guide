@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:paddingLeft="15dp"
+    android:background="@color/lightWhite">
+
+    <TextView
+        android:id="@+id/menu_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan_name"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_title"
+        android:text="@string/logo_name"
+        android:textSize="24sp"
+        android:fontFamily="@font/brandon_grotesque_black"
+        android:textColor="@color/black"
+        android:layout_above="@id/menu_slogan"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/flag_icon"
+        app:tint="@color/black"
+        android:layout_above="@id/menu_title"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/notifications_icon"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:tint="@color/colorPrimaryDark"/>
+
+
+
+</RelativeLayout>
